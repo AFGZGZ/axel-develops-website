@@ -21,20 +21,22 @@ function Services() {
   const [active, setActive] = useState<number>(0);
 
   return (
-    <section className="relative py-24 md:py-32 overflow-hidden">
+    <section id="services" className="relative py-24 md:py-32 overflow-hidden">
       {/* DIFFUSED BACKGROUND */}
       <div className="pointer-events-none absolute inset-0 z-0">
         <div
-          className="w-full h-full transition-all duration-1000"
+          className="w-full h-full transition-all duration-700"
           style={{
             background: `
-              radial-gradient(800px circle at ${
-                active === 0 ? "30% 40%" : active === 1 ? "70% 50%" : "50% 70%"
-              },
-              rgba(255,255,255,0.04),
-              transparent 70%)
-            `,
-            filter: "blur(80px)",
+        radial-gradient(
+          600px circle at ${
+            active === 0 ? "30% 40%" : active === 1 ? "70% 50%" : "50% 70%"
+          },
+          rgba(255,255,255,0.025),
+          transparent 75%
+        )
+      `,
+            filter: "blur(60px)", // softer
           }}
         />
       </div>

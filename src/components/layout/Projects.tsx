@@ -13,7 +13,7 @@ function Projects() {
   ];
 
   return (
-    <section className="relative py-24 md:py-32 overflow-hidden">
+    <section id="projects" className="relative py-24 md:py-32 overflow-hidden">
       <div className="max-w-[800px] mx-auto px-6 md:px-8">
         <div className="text-xs tracking-[0.2em] uppercase opacity-40 mb-16">
           Projects

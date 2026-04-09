@@ -30,11 +30,11 @@ function Tube() {
   useFrame((state) => {
     const t = state.clock.elapsedTime;
 
-    const scale = window.innerWidth < 768 ? 0.8 : 1;
+    const scale = window.innerWidth < 768 ? 1.2 : 1.8;
 
-    meshRef.current.scale.set(scale, scale, scale);
+    meshRef.current.scale.set(0.6, scale, scale);
 
-    meshRef.current.rotation.y = t * 0.05;
+    meshRef.current.rotation.y = t * 0.08;
   });
 
   return (

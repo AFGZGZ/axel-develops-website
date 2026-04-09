@@ -23,8 +23,8 @@ export default function App() {
 
 function Main() {
   return (
-    // <main className="px-8">
-    <main className="px-8 max-w-[800px] mx-auto">
+    // <main className="px-6 md:px-8 max-w-none md:max-w-[800px] mx-auto">
+    <main className=" max-w-none md:max-w-[800px] mx-auto">
       <Hero />
       <About />
       <Services />

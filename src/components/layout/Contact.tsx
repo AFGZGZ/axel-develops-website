@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="mt-48 pb-32">
+    <section id="contact" className=" mt-48 pb-32">
       <h2 className="text-4xl mb-10">Let’s work together</h2>
       <a
         href="mailto:you@email.com"
