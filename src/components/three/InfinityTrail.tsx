@@ -2,21 +2,26 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { useRef, useMemo } from "react";
 import * as THREE from "three";
 
+/* ✅ FIX: properly extend Curve */
 class InfinityCurve extends THREE.Curve<THREE.Vector3> {
-  getPoint(t: number) {
+  constructor() {
+    super(); // 🔥 REQUIRED (fixes TS error)
+  }
+
+  override getPoint(t: number) {
     const scale = 2;
     const angle = t * Math.PI * 2;
 
-    const x = Math.sin(angle) * scale;
-    const y = Math.sin(angle) * Math.cos(angle) * scale * 0.6;
-    const z = Math.cos(angle) * scale * 0.4;
-
-    return new THREE.Vector3(x, y, z);
+    return new THREE.Vector3(
+      Math.sin(angle) * scale,
+      Math.sin(angle) * Math.cos(angle) * scale * 0.6,
+      Math.cos(angle) * scale * 0.4,
+    );
   }
 }
 
 function Tube() {
-  const meshRef = useRef<THREE.Mesh>(null!);
+  const meshRef = useRef<THREE.Mesh | null>(null);
 
   const curve = useMemo(() => new InfinityCurve(), []);
 
@@ -25,26 +30,22 @@ function Tube() {
     [curve],
   );
 
-  const materialRef = useRef<THREE.MeshStandardMaterial>(null!);
-
   useFrame((state) => {
+    if (!meshRef.current) return;
+
     const t = state.clock.elapsedTime;
 
-    const scale = window.innerWidth < 768 ? 1.2 : 1.8;
+    // ✅ more stable responsive scaling (no direct window read)
+    const isMobile = state.size.width < 768;
+    const scale = isMobile ? 1.2 : 1.8;
 
     meshRef.current.scale.set(0.6, scale, scale);
-
     meshRef.current.rotation.y = t * 0.08;
   });
 
   return (
     <mesh ref={meshRef} geometry={geometry}>
-      <meshStandardMaterial
-        ref={materialRef}
-        color="#aaaaaa"
-        roughness={0.4}
-        metalness={0.2}
-      />
+      <meshStandardMaterial color="#aaaaaa" roughness={0.4} metalness={0.2} />
     </mesh>
   );
 }

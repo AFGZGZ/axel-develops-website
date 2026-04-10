@@ -1,6 +1,7 @@
 import { Canvas, useFrame } from "@react-three/fiber";
 import { shaderMaterial } from "@react-three/drei";
 import { extend } from "@react-three/fiber";
+import * as THREE from "three";
 import { useRef } from "react";
 
 const GrainMaterial = shaderMaterial(
@@ -59,13 +60,17 @@ base += grain * 0.02 + flicker;
 extend({ GrainMaterial });
 
 function Plane() {
-  const ref = useRef<any>();
+  const ref = useRef<THREE.Mesh | null>(null);
+  const materialRef = useRef<THREE.ShaderMaterial | null>(null);
 
   useFrame((state) => {
-    if (ref.current) {
-      ref.current.uTime = state.clock.elapsedTime;
-      ref.current.uResolution = [state.size.width, state.size.height];
-    }
+    if (!materialRef.current) return;
+
+    materialRef.current.uniforms.uTime.value = state.clock.elapsedTime;
+    materialRef.current.uniforms.uResolution.value = [
+      state.size.width,
+      state.size.height,
+    ];
   });
 
   return (

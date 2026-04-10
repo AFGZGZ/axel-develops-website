@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import ServiceItem from "./ServiceItem";
 
 function Services() {
@@ -27,7 +27,6 @@ function Services() {
     },
   ];
 
-  const refs = useRef<(HTMLDivElement | null)[]>([]);
   const [active, setActive] = useState<number>(0);
   const [open, setOpen] = useState<number | null>(null);
 
@@ -64,7 +63,6 @@ function Services() {
               open={open}
               setActive={setActive}
               setOpen={setOpen}
-              refCallback={(el) => (refs.current[i] = el)}
               title={s.title}
               desc={s.desc}
               details={s.details}
