@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import InfinityScene from "../three/InfinityTrail";
 
 function Hero() {
-  const words = ["Developer", "Thinker", "Engineer", "Builder"];
+  const words = ["Developer", "Problem Solver", "Technologist", "Builder"];
 
   const [index, setIndex] = useState(0);
 

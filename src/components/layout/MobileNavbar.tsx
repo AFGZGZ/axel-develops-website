@@ -1,6 +1,11 @@
 import { motion, AnimatePresence } from "framer-motion";
 
-function MobileNavbar({ open, setOpen }) {
+type MobileNavbarProps = {
+  open: boolean;
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+function MobileNavbar({ open, setOpen }: MobileNavbarProps) {
   const links = [
     { name: "About", href: "#about" },
     { name: "Services", href: "#services" },

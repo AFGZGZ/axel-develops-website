@@ -37,7 +37,7 @@ function Navbar() {
             </a>
           </div>
 
-          {/* MOBILE BUTTON */}
+          {/* MOBILE */}
           <button
             onClick={() => setOpen(true)}
             className="md:hidden text-xs uppercase opacity-60"

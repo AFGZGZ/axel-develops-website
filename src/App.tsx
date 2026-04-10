@@ -12,7 +12,7 @@ export default function App() {
       <Navbar />
       <Main />
       <Background />
-      {/* GLOBAL GRADIENT (the magic) */}
+      {/* GLOBAL GRADIENT */}
       <div className="pointer-events-none fixed inset-0 z-0">
         {/* <div className="h-[200vh] w-full bg-[linear-gradient(to_bottom,rgba(0,0,0,0)_0%,rgba(0,0,0,0.2)_30%,rgba(0,0,0,0.6)_60%,rgba(0,0,0,0.95)_100%)]" /> */}
         <div className="h-[300vh] md:h-[200vh] w-full bg-[linear-gradient(to_bottom,rgba(0,0,0,0)_0%,rgba(0,0,0,0.2)_30%,rgba(0,0,0,0.6)_60%,rgba(0,0,0,0.95)_100%)]" />
@@ -23,7 +23,6 @@ export default function App() {
 
 function Main() {
   return (
-    // <main className="px-6 md:px-8 max-w-none md:max-w-[800px] mx-auto">
     <main className=" max-w-none md:max-w-[800px] mx-auto">
       <Hero />
       <About />

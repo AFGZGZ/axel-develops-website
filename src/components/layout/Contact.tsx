@@ -1,23 +1,74 @@
 function Contact() {
   return (
-    <section id="contact" className=" mt-48 pb-32">
+    <section
+      id="contact"
+      className="mt-48 py-24 px-6 md:px-8 max-w-[800px] mx-auto"
+    >
       <h2 className="text-4xl mb-10">Let’s work together</h2>
+
+      {/* EMAIL (keep subtle) */}
       <a
         href="mailto:you@email.com"
         className="text-xl opacity-40 hover:opacity-100 transition"
       >
         you@email.com
       </a>
-      <p>
-        Drop me a line at hello@maximeheckel.com. Say the magic word so I know
-        you're not a bot: MAXIMEPORTFOLIO2024 Follow me on Twitter. This is
-        where I share most of my work. If you ever come to NYC, let's meet up
-        for coffee.
-      </p>
-      <p>
-        I'm always interested to meet new people, learn new things and hear
-        fresh perspectives. If you'd like to send me an email I'd be happy to
-        write back. Otherwise you can follow me on X, BlueSky or LinkedIn.
+
+      {/* TEXT */}
+      <p className="mt-10 text-lg md:text-xl leading-relaxed max-w-[500px]">
+        Drop me a line anytime, I'd be happy to write back. You can also follow
+        me on{" "}
+        <a
+          href="https://x.com/AxelDevelops1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            font-semibold
+            underline
+            underline-offset-4
+            decoration-2
+            decoration-white
+            hover:opacity-70
+            transition
+          "
+        >
+          X
+        </a>
+        ,{" "}
+        <a
+          href="https://bsky.app/profile/axeldevelops.bsky.social"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            font-semibold
+            underline
+            underline-offset-4
+            decoration-2
+            decoration-white
+            hover:opacity-70
+            transition
+          "
+        >
+          Bluesky
+        </a>{" "}
+        or{" "}
+        <a
+          href="https://linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            font-semibold
+            underline
+            underline-offset-4
+            decoration-2
+            decoration-white
+            hover:opacity-70
+            transition
+          "
+        >
+          LinkedIn
+        </a>
+        . If you are around Seoul, let's meet up for coffee.
       </p>
     </section>
   );

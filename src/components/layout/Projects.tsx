@@ -1,14 +1,11 @@
 import { motion } from "framer-motion";
+import tokki from "../../assets/tokki.webp";
 
 function Projects() {
   const projects = [
     {
-      title: "Portfolio Website",
-      desc: "Minimal, immersive personal portfolio.",
-    },
-    {
-      title: "TOPIK App",
-      desc: "Language learning platform for Korean.",
+      title: "Tokki Korean",
+      desc: "An all -in-one Language learning app for Korean. Currently available for Android devices.",
     },
   ];
 
@@ -33,7 +30,6 @@ function Projects() {
               whileHover={{ y: -4 }}
               className="group relative"
             >
-              {/* BACKGROUND */}
               <div
                 className="
                 absolute inset-0 rounded-2xl
@@ -45,8 +41,6 @@ function Projects() {
                 group-hover:border-white/20
               "
               />
-
-              {/*INNER GLOW */}
               <div
                 className="
                 pointer-events-none absolute inset-0 rounded-2xl
@@ -55,32 +49,39 @@ function Projects() {
                 bg-[radial-gradient(circle_at_20%_50%,rgba(255,255,255,0.12),transparent_70%)]
               "
               />
-
               <div
                 className="
                 relative
                 p-6 md:p-8
                 flex flex-col md:flex-row
                 md:items-center
-                md:justify-between
                 gap-6
               "
               >
-                <div className="max-w-[500px]">
-                  <h3
-                    className="
-                    text-[clamp(1.8rem,3vw,2.5rem)]
-                    font-medium tracking-tight mb-2
-                    transition duration-500
-                    group-hover:opacity-90
-                  "
-                  >
-                    {p.title}
-                  </h3>
+                <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-5">
+                  <div className="w-20 h-20 md:w-22 md:h-22 rounded-2xl overflow-hidden flex-shrink-0 self-start md:self-auto isolate">
+                    <img
+                      src={tokki}
+                      alt={p.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="max-w-[500px]">
+                    <h3
+                      className="
+                      text-[clamp(1.8rem,3vw,2.5rem)]
+                      font-medium tracking-tight mb-1
+                      transition duration-500
+                      group-hover:opacity-90
+                    "
+                    >
+                      {p.title}
+                    </h3>
 
-                  <p className="text-base opacity-50 leading-relaxed">
-                    {p.desc}
-                  </p>
+                    <p className="text-base opacity-50 leading-relaxed">
+                      {p.desc}
+                    </p>
+                  </div>
                 </div>
 
                 <div
