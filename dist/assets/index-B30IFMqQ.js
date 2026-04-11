@@ -4119,7 +4119,7 @@ base += grain * 0.02 + flicker;
                     leading-[1]\r
                     tracking-tight\r
                     font-medium\r
-                  `,children:e.name},e.name))})})]})})}function qk(){let[e,t]=(0,b.useState)(!1);return(0,Q.jsxs)(Q.Fragment,{children:[(0,Q.jsx)(`nav`,{className:`fixed top-0 left-0 w-full z-50 mix-blend-difference`,children:(0,Q.jsxs)(`div`,{className:`max-w-[800px] mx-auto px-6 md:px-8 flex justify-between items-center py-5`,children:[(0,Q.jsx)(`span`,{className:`text-xs tracking-[0.2em] uppercase`,children:`Axel Develops`}),(0,Q.jsxs)(`div`,{className:`hidden md:flex gap-10 text-xs`,children:[(0,Q.jsx)(`a`,{href:`#about`,className:`hover:opacity-50 transition uppercase`,children:`About`}),(0,Q.jsx)(`a`,{href:`#services`,className:`hover:opacity-50 transition uppercase`,children:`Services`}),(0,Q.jsx)(`a`,{href:`#projects`,className:`hover:opacity-50 transition uppercase`,children:`Projects`}),(0,Q.jsx)(`a`,{href:`#contact`,className:`hover:opacity-50 transition uppercase`,children:`Contact`})]}),(0,Q.jsx)(`button`,{onClick:()=>t(!0),className:`md:hidden text-xs uppercase opacity-60`,children:`Menu`})]})}),(0,Q.jsx)(Kk,{open:e,setOpen:t})]})}var Jk=class extends Ls{constructor(){super()}getPoint(e){let t=e*Math.PI*2;return new B(Math.sin(t)*2,Math.sin(t)*Math.cos(t)*2*.6,Math.cos(t)*2*.4)}};function Yk(){let e=(0,b.useRef)(null),t=(0,b.useMemo)(()=>new Jk,[]),n=(0,b.useMemo)(()=>new ul(t,200,.08,16,!0),[t]);return T_(t=>{if(!e.current)return;let n=t.clock.elapsedTime,r=t.size.width<768?1.2:1.8;e.current.scale.set(.6,r,r),e.current.rotation.y=n*.08}),(0,Q.jsx)(`mesh`,{ref:e,geometry:n,children:(0,Q.jsx)(`meshStandardMaterial`,{color:`#aaaaaa`,roughness:.4,metalness:.2})})}function Xk(){return(0,Q.jsx)(`div`,{className:`w-full h-full`,children:(0,Q.jsxs)(qv,{camera:{position:[0,0,6],fov:45},style:{width:`100%`,height:`100%`},children:[(0,Q.jsx)(`ambientLight`,{intensity:.4}),(0,Q.jsx)(`directionalLight`,{position:[2,2,2],intensity:1}),(0,Q.jsx)(Yk,{})]})})}function Zk(){let e=[`Developer`,`Problem Solver`,`Technologist`,`Builder`],[t,n]=(0,b.useState)(0);return(0,b.useEffect)(()=>{let t=setInterval(()=>{n(t=>(t+1)%e.length)},3600);return()=>clearInterval(t)},[]),(0,Q.jsxs)(`section`,{className:`relative min-h-screen flex flex-col justify-end px-6 md:px-8 pb-14 overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute inset-0 z-0`,children:(0,Q.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-b from-black/0 via-black/20 to-black/80`})}),(0,Q.jsx)(`div`,{className:`pointer-events-none absolute inset-0 z-10 overflow-hidden`,children:(0,Q.jsx)(`div`,{className:`absolute inset-0 flex items-center justify-center`,children:(0,Q.jsx)(`div`,{className:`\r
+                  `,children:e.name},e.name))})})]})})}function qk(){let[e,t]=(0,b.useState)(!1);return(0,Q.jsxs)(Q.Fragment,{children:[(0,Q.jsx)(`nav`,{className:`fixed top-0 left-0 w-full z-50 mix-blend-difference`,children:(0,Q.jsxs)(`div`,{className:`max-w-[800px] mx-auto px-6 md:px-8 flex justify-between items-center py-5`,children:[(0,Q.jsx)(`span`,{className:`text-xs tracking-[0.2em] uppercase`,children:`Axel Develops`}),(0,Q.jsxs)(`div`,{className:`hidden md:flex gap-10 text-xs`,children:[(0,Q.jsx)(`a`,{href:`#about`,className:`hover:opacity-50 transition uppercase`,children:`About`}),(0,Q.jsx)(`a`,{href:`#services`,className:`hover:opacity-50 transition uppercase`,children:`Services`}),(0,Q.jsx)(`a`,{href:`#projects`,className:`hover:opacity-50 transition uppercase`,children:`Projects`}),(0,Q.jsx)(`a`,{href:`#contact`,className:`hover:opacity-50 transition uppercase`,children:`Contact`})]}),(0,Q.jsx)(`button`,{onClick:()=>t(!0),className:`md:hidden text-xs uppercase opacity-60`,children:`Menu`})]})}),(0,Q.jsx)(Kk,{open:e,setOpen:t})]})}var Jk=class extends Ls{constructor(){super()}getPoint(e){let t=e*Math.PI*2;return new B(Math.sin(t)*2,Math.sin(t)*Math.cos(t)*2*.6,Math.cos(t)*2*.4)}};function Yk(){let e=(0,b.useRef)(null),t=(0,b.useMemo)(()=>new Jk,[]),n=(0,b.useMemo)(()=>new ul(t,120,.08,12,!0),[t]);return T_(t=>{if(!e.current)return;let n=t.clock.elapsedTime,r=t.size.width<768?1.2:1.8;e.current.scale.set(.6,r,r),e.current.rotation.y=n*.08}),(0,Q.jsx)(`mesh`,{ref:e,geometry:n,children:(0,Q.jsx)(`meshStandardMaterial`,{color:`#aaaaaa`,roughness:.4,metalness:.2})})}function Xk(){return(0,Q.jsx)(`div`,{className:`w-full h-full`,children:(0,Q.jsxs)(qv,{camera:{position:[0,0,6],fov:45},style:{width:`100%`,height:`100%`},children:[(0,Q.jsx)(`ambientLight`,{intensity:.4}),(0,Q.jsx)(`directionalLight`,{position:[2,2,2],intensity:1}),(0,Q.jsx)(Yk,{})]})})}function Zk(){let e=[`Developer`,`Problem Solver`,`Technologist`,`Builder`],[t,n]=(0,b.useState)(0);return(0,b.useEffect)(()=>{let t=setInterval(()=>{n(t=>(t+1)%e.length)},3600);return()=>clearInterval(t)},[]),(0,Q.jsxs)(`section`,{className:`relative min-h-screen flex flex-col justify-end px-6 md:px-8 pb-14 overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute inset-0 z-0`,children:(0,Q.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-b from-black/0 via-black/20 to-black/80`})}),(0,Q.jsx)(`div`,{className:`pointer-events-none absolute inset-0 z-10 overflow-hidden`,children:(0,Q.jsx)(`div`,{className:`absolute inset-0 flex items-center justify-center`,children:(0,Q.jsx)(`div`,{className:`\r
         w-[140vw]\r
         sm:w-[120vw]\r
         md:w-[100vw]\r
@@ -4132,13 +4132,14 @@ base += grain * 0.02 + flicker;
         -translate-y-[5%]\r
         sm:-translate-y-[10%]\r
         md:-translate-y-[15%]\r
-        lg:-translate-y-[20%]`,children:(0,Q.jsx)(Xk,{})})})}),(0,Q.jsx)(`div`,{className:`relative z-30 max-w-[800px] w-full flex flex-col`,children:(0,Q.jsx)(`div`,{className:`relative z-30 max-w-[800px] w-full flex flex-col`,children:(0,Q.jsxs)(`h1`,{className:`\r
-            text-[clamp(4.5rem,14vw,6.5rem)]\r
-            sm:text-[clamp(4rem,12vw,8rem)]\r
-            md:text-[clamp(3.5rem,10vw,11rem)]\r
+        lg:-translate-y-[20%]`,children:(0,Q.jsx)(Xk,{})})})}),(0,Q.jsx)(`div`,{className:`relative z-30 w-full max-w-[800px] flex flex-col`,children:(0,Q.jsx)(`div`,{className:`max-w-[90%] sm:max-w-full`,children:(0,Q.jsxs)(`h1`,{className:`\r
+            w-full\r
+            text-[clamp(3rem,8vw,8rem)]\r
+            xl:text-[7rem]\r
             leading-[0.85]\r
             tracking-tight\r
-            font-medium`,children:[`I'm a`,(0,Q.jsx)(`br`,{}),`Creative`,(0,Q.jsx)(`br`,{}),(0,Q.jsx)(`span`,{className:`relative inline-block h-[1em] overflow-hidden align-bottom`,children:(0,Q.jsx)(`span`,{className:`block`,style:{animation:`wordSlide 4s cubic-bezier(0.76,0,0.24,1)`},children:e[t]},t)})]})})})]})}var Qk=`/assets/head-BvOmzNy7.webp`;function $k(){return(0,Q.jsxs)(`section`,{id:`about`,className:`relative py-20 md:py-28 overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute inset-0 z-0`,children:(0,Q.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-t from-black/0 via-black/20 to-black/80`})}),(0,Q.jsxs)(`div`,{className:`relative z-30 max-w-[900px] mx-auto px-6 md:px-8`,children:[(0,Q.jsx)(Hk.div,{initial:{opacity:0,y:20},whileInView:{opacity:.4,y:0},transition:{duration:.8,ease:[.76,0,.24,1]},viewport:{once:!0,margin:`-100px`},className:`text-xs tracking-[0.2em] uppercase mb-12`,children:`About`}),(0,Q.jsxs)(`div`,{className:`flex flex-col md:flex-row gap-12 md:gap-16 items-start`,children:[(0,Q.jsx)(Hk.div,{initial:{opacity:0,scale:.9},whileInView:{opacity:1,scale:1},transition:{duration:1,ease:[.76,0,.24,1]},viewport:{once:!0},className:`relative z-30`,children:(0,Q.jsx)(`div`,{className:`relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden`,children:(0,Q.jsx)(`img`,{src:Qk,alt:`Profile`,className:`w-full h-full object-cover`})})}),(0,Q.jsxs)(`div`,{className:`flex-1`,children:[(0,Q.jsx)(Hk.p,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{duration:1,ease:[.76,0,.24,1]},viewport:{once:!0,margin:`-100px`},className:`text-[clamp(1.8rem,3vw,2.6rem)] leading-[1.2] tracking-tight`,children:`I make cool digital things with an artisanal approach. Based in Gyeonggi-do / Seoul.`}),(0,Q.jsx)(Hk.p,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{duration:1,delay:.2,ease:[.76,0,.24,1]},viewport:{once:!0,margin:`-100px`},className:`mt-8 text-lg md:text-xl leading-relaxed max-w-[500px] text-white/80`,children:`Throughout the past 5 years, I have worked creating 3D web solutions for the AEC sector, education projects, iterating quick app ideas...`}),(0,Q.jsxs)(Hk.p,{initial:{opacity:0,y:30},whileInView:{opacity:.6,y:0},transition:{duration:1,delay:.2,ease:[.76,0,.24,1]},viewport:{once:!0,margin:`-100px`},className:`mt-8 text-lg md:text-xl leading-relaxed max-w-[500px]`,children:[`You can check what I'm currently working on on my`,` `,(0,Q.jsx)(`a`,{href:`https://www.youtube.com/@AxelDevelops`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
+            font-medium\r
+          `,children:[`I'm a`,(0,Q.jsx)(`br`,{}),`Creative`,(0,Q.jsx)(`br`,{}),(0,Q.jsx)(`span`,{className:`relative inline-block h-[1em] overflow-hidden align-bottom whitespace-nowrap`,children:(0,Q.jsx)(`span`,{className:`block`,style:{animation:`wordSlide 4s cubic-bezier(0.76,0,0.24,1)`},children:e[t]},t)})]})})})]})}var Qk=`/assets/head-BvOmzNy7.webp`;function $k(){return(0,Q.jsxs)(`section`,{id:`about`,className:`relative py-20 md:py-28 overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute inset-0 z-0`,children:(0,Q.jsx)(`div`,{className:`absolute inset-0 bg-gradient-to-t from-black/0 via-black/20 to-black/80`})}),(0,Q.jsxs)(`div`,{className:`relative z-30 max-w-[900px] mx-auto px-6 md:px-8`,children:[(0,Q.jsx)(Hk.div,{initial:{opacity:0,y:20},whileInView:{opacity:.4,y:0},transition:{duration:.8,ease:[.76,0,.24,1]},viewport:{once:!0,margin:`-100px`},className:`text-xs tracking-[0.2em] uppercase mb-12`,children:`About`}),(0,Q.jsxs)(`div`,{className:`flex flex-col md:flex-row gap-12 md:gap-16 items-start`,children:[(0,Q.jsx)(Hk.div,{initial:{opacity:0,scale:.9},whileInView:{opacity:1,scale:1},transition:{duration:1,ease:[.76,0,.24,1]},viewport:{once:!0},className:`relative z-30`,children:(0,Q.jsx)(`div`,{className:`relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden`,children:(0,Q.jsx)(`img`,{src:Qk,alt:`Axel - App/Web Developer`,loading:`lazy`,className:`w-full h-full object-cover`})})}),(0,Q.jsxs)(`div`,{className:`flex-1`,children:[(0,Q.jsx)(Hk.p,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{duration:1,ease:[.76,0,.24,1]},viewport:{once:!0,margin:`-100px`},className:`text-[clamp(1.8rem,3vw,2.6rem)] leading-[1.2] tracking-tight`,children:(0,Q.jsx)(`h2`,{children:`I design and build web applications, mobile apps, and immersive 3D experiences with an artisanal approach. Based in Gyeonggi-do / Seoul.`})}),(0,Q.jsx)(Hk.p,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{duration:1,delay:.2,ease:[.76,0,.24,1]},viewport:{once:!0,margin:`-100px`},className:`mt-8 text-lg md:text-xl leading-relaxed max-w-[500px] text-white/80`,children:`Throughout the past 5 years, I have worked creating 3D web solutions for the AEC sector, education projects, iterating quick app ideas...`}),(0,Q.jsxs)(Hk.p,{initial:{opacity:0,y:30},whileInView:{opacity:.6,y:0},transition:{duration:1,delay:.2,ease:[.76,0,.24,1]},viewport:{once:!0,margin:`-100px`},className:`mt-8 text-lg md:text-xl leading-relaxed max-w-[500px]`,children:[`You can check what I'm currently working on on my`,` `,(0,Q.jsx)(`a`,{href:`https://www.youtube.com/@AxelDevelops`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
                 font-semibold\r
                 underline\r
                 underline-offset-4\r
@@ -4171,39 +4172,39 @@ base += grain * 0.02 + flicker;
           rgba(255,255,255,0.025),
           transparent 75%
         )
-      `,filter:`blur(60px)`}})}),(0,Q.jsxs)(`div`,{className:`relative z-10 max-w-[800px] mx-auto px-6 md:px-8`,children:[(0,Q.jsx)(`div`,{className:`text-xs tracking-[0.2em] uppercase opacity-40 mb-12`,children:`Services`}),(0,Q.jsx)(`div`,{className:`space-y-20`,children:e.map((e,a)=>(0,Q.jsx)(eA,{i:a,active:t,open:r,setActive:n,setOpen:i,title:e.title,desc:e.desc,details:e.details},a))})]})]})}var nA=`/assets/tokki-jgv5yLm9.webp`;function rA(){return(0,Q.jsx)(`section`,{id:`projects`,className:`relative py-24 md:py-32 overflow-hidden`,children:(0,Q.jsxs)(`div`,{className:`max-w-[800px] mx-auto px-6 md:px-8`,children:[(0,Q.jsx)(`div`,{className:`text-xs tracking-[0.2em] uppercase opacity-40 mb-16`,children:`Projects`}),(0,Q.jsx)(`div`,{className:`space-y-6`,children:[{title:`Tokki Korean`,desc:`An all -in-one Language learning app for Korean. Currently available for Android devices.`}].map((e,t)=>(0,Q.jsxs)(Hk.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{duration:.9,delay:t*.1,ease:[.76,0,.24,1]},whileHover:{y:-4},className:`group relative`,children:[(0,Q.jsx)(`div`,{className:`\r
-                absolute inset-0 rounded-2xl\r
-                bg-white/[0.03]\r
-                backdrop-blur-xl\r
-                border border-white/10\r
-                transition-all duration-500\r
-                group-hover:bg-white/[0.05]\r
-                group-hover:border-white/20\r
-              `}),(0,Q.jsx)(`div`,{className:`\r
-                pointer-events-none absolute inset-0 rounded-2xl\r
-                opacity-0 group-hover:opacity-100\r
-                transition duration-700\r
-                bg-[radial-gradient(circle_at_20%_50%,rgba(255,255,255,0.12),transparent_70%)]\r
-              `}),(0,Q.jsxs)(`div`,{className:`\r
-                relative\r
-                p-6 md:p-8\r
-                flex flex-col md:flex-row\r
-                md:items-center\r
-                gap-6\r
-              `,children:[(0,Q.jsxs)(`div`,{className:`flex flex-col md:flex-row md:items-center gap-4 md:gap-5`,children:[(0,Q.jsx)(`div`,{className:`w-20 h-20 md:w-22 md:h-22 rounded-2xl overflow-hidden flex-shrink-0 self-start md:self-auto isolate`,children:(0,Q.jsx)(`img`,{src:nA,alt:e.title,className:`w-full h-full object-cover`})}),(0,Q.jsxs)(`div`,{className:`max-w-[500px]`,children:[(0,Q.jsx)(`h3`,{className:`\r
-                      text-[clamp(1.8rem,3vw,2.5rem)]\r
-                      font-medium tracking-tight mb-1\r
-                      transition duration-500\r
-                      group-hover:opacity-90\r
-                    `,children:e.title}),(0,Q.jsx)(`p`,{className:`text-base opacity-50 leading-relaxed`,children:e.desc})]})]}),(0,Q.jsxs)(`div`,{className:`\r
-                  flex items-center justify-between\r
-                  md:justify-end gap-6\r
-                  w-full md:w-auto\r
-                `,children:[(0,Q.jsx)(`span`,{className:`text-xs opacity-30`,children:`View Project`}),(0,Q.jsx)(`span`,{className:`\r
-                    text-sm opacity-20\r
-                    transition duration-500\r
-                    group-hover:translate-x-1\r
-                  `,children:`→`})]})]})]},t))})]})})}function iA(){return(0,Q.jsxs)(`section`,{id:`contact`,className:`mt-48 py-24 px-6 md:px-8 max-w-[800px] mx-auto`,children:[(0,Q.jsx)(`h2`,{className:`text-4xl mb-10`,children:`Let’s work together`}),(0,Q.jsx)(`a`,{href:`mailto:you@email.com`,className:`text-xl opacity-40 hover:opacity-100 transition`,children:`you@email.com`}),(0,Q.jsxs)(`p`,{className:`mt-10 text-lg md:text-xl leading-relaxed max-w-[500px]`,children:[`Drop me a line anytime, I'd be happy to write back. You can also follow me on`,` `,(0,Q.jsx)(`a`,{href:`https://x.com/AxelDevelops1`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
+      `,filter:`blur(60px)`}})}),(0,Q.jsxs)(`div`,{className:`relative z-10 max-w-[800px] mx-auto px-6 md:px-8`,children:[(0,Q.jsx)(`div`,{className:`text-xs tracking-[0.2em] uppercase opacity-40 mb-12`,children:`Services`}),(0,Q.jsx)(`div`,{className:`space-y-20`,children:e.map((e,a)=>(0,Q.jsx)(eA,{i:a,active:t,open:r,setActive:n,setOpen:i,title:e.title,desc:e.desc,details:e.details},a))})]})]})}function nA({project:e,index:t}){return(0,Q.jsx)(`a`,{href:e.url,target:`_blank`,rel:`noopener noreferrer`,className:`block group cursor-pointer`,children:(0,Q.jsxs)(Hk.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{duration:.9,delay:t*.1,ease:[.76,0,.24,1]},whileHover:{y:-4},whileTap:{scale:.98},className:`relative`,children:[(0,Q.jsx)(`div`,{className:`\r
+        absolute inset-0 rounded-2xl\r
+        bg-white/[0.03]\r
+        backdrop-blur-xl\r
+        border border-white/10\r
+        transition-all duration-500\r
+        group-hover:bg-white/[0.05]\r
+        group-hover:border-white/20\r
+      `}),(0,Q.jsx)(`div`,{className:`\r
+        pointer-events-none absolute inset-0 rounded-2xl\r
+        opacity-0 group-hover:opacity-100\r
+        transition duration-700\r
+        bg-[radial-gradient(circle_at_20%_50%,rgba(255,255,255,0.12),transparent_70%)]\r
+      `}),(0,Q.jsxs)(`div`,{className:`\r
+        relative\r
+        p-6 md:p-8\r
+        flex flex-col md:flex-row\r
+        md:items-center\r
+        gap-6\r
+      `,children:[(0,Q.jsxs)(`div`,{className:`flex flex-col md:flex-row md:items-center gap-4 md:gap-5`,children:[(0,Q.jsx)(`div`,{className:`w-20 h-20 md:w-22 md:h-22 rounded-2xl overflow-hidden flex-shrink-0 self-start md:self-auto isolate`,children:(0,Q.jsx)(`img`,{src:e.image,alt:e.title,className:`w-full h-full object-cover`})}),(0,Q.jsxs)(`div`,{className:`max-w-[500px]`,children:[(0,Q.jsx)(`h3`,{className:`\r
+              text-[clamp(1.8rem,3vw,2.5rem)]\r
+              font-medium tracking-tight mb-1\r
+              transition duration-500\r
+              group-hover:opacity-90\r
+            `,children:e.title}),(0,Q.jsx)(`p`,{className:`text-base opacity-50 leading-relaxed`,children:e.desc})]})]}),(0,Q.jsxs)(`div`,{className:`\r
+          flex items-center justify-between\r
+          md:justify-end gap-6\r
+          w-full md:w-auto\r
+        `,children:[(0,Q.jsx)(`span`,{className:`text-xs opacity-30`,children:`View Project`}),(0,Q.jsx)(`span`,{className:`\r
+            text-sm opacity-20\r
+            transition duration-500\r
+            group-hover:translate-x-1\r
+          `,children:`→`})]})]})]})})}var rA=`/assets/tokki-jgv5yLm9.webp`;function iA(){return(0,Q.jsxs)(`section`,{id:`projects`,className:`relative py-24 md:py-32 overflow-hidden`,children:[(0,Q.jsx)(`h2`,{className:`sr-only`,children:`Projects and Work`}),(0,Q.jsxs)(`div`,{className:`max-w-[800px] mx-auto px-6 md:px-8`,children:[(0,Q.jsx)(`div`,{className:`text-xs tracking-[0.2em] uppercase opacity-40 mb-16`,children:`Projects`}),(0,Q.jsx)(`div`,{className:`space-y-6`,children:[{title:`Tokki Korean`,desc:`An all-in-one language learning app for Korean. Currently available for Android devices.`,image:rA,url:`https:www.tokkikorean.com`}].map((e,t)=>(0,Q.jsx)(nA,{project:e,index:t},t))})]})]})}function aA(){return(0,Q.jsxs)(`section`,{id:`contact`,className:`mt-48 py-24 px-6 md:px-8 max-w-[800px] mx-auto`,children:[(0,Q.jsx)(`h2`,{className:`text-4xl mb-10`,children:`Let’s work together`}),(0,Q.jsx)(`a`,{href:`mailto:you@email.com`,className:`text-xl opacity-40 hover:opacity-100 transition`,children:`email@email.com`}),(0,Q.jsxs)(`p`,{className:`mt-10 text-lg md:text-xl leading-relaxed max-w-[500px]`,children:[`Drop me a line anytime, I'd be happy to write back. You can also follow me on`,` `,(0,Q.jsx)(`a`,{href:`https://x.com/AxelDevelops1`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
             font-semibold\r
             underline\r
             underline-offset-4\r
@@ -4219,7 +4220,7 @@ base += grain * 0.02 + flicker;
             decoration-white\r
             hover:opacity-70\r
             transition\r
-          `,children:`Bluesky`}),` `,`or`,` `,(0,Q.jsx)(`a`,{href:`https://linkedin.com/`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
+          `,children:`Bluesky`}),` `,`or`,` `,(0,Q.jsx)(`a`,{href:`https://www.linkedin.com/in/axel-fernandez-b19651240`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
             font-semibold\r
             underline\r
             underline-offset-4\r
@@ -4227,4 +4228,4 @@ base += grain * 0.02 + flicker;
             decoration-white\r
             hover:opacity-70\r
             transition\r
-          `,children:`LinkedIn`}),`. If you are around Seoul, let's meet up for coffee.`]})]})}function aA(){return(0,Q.jsxs)(`div`,{className:`bg-transparent text-white font-[Archivo]`,children:[(0,Q.jsx)(qk,{}),(0,Q.jsx)(oA,{}),(0,Q.jsx)(Xv,{}),(0,Q.jsx)(`div`,{className:`pointer-events-none fixed inset-0 z-0`,children:(0,Q.jsx)(`div`,{className:`h-[300vh] md:h-[200vh] w-full bg-[linear-gradient(to_bottom,rgba(0,0,0,0)_0%,rgba(0,0,0,0.2)_30%,rgba(0,0,0,0.6)_60%,rgba(0,0,0,0.95)_100%)]`})})]})}function oA(){return(0,Q.jsxs)(`main`,{className:` max-w-none md:max-w-[800px] mx-auto`,children:[(0,Q.jsx)(Zk,{}),(0,Q.jsx)($k,{}),(0,Q.jsx)(tA,{}),(0,Q.jsx)(rA,{}),(0,Q.jsx)(iA,{})]})}(0,x.createRoot)(document.getElementById(`root`)).render((0,Q.jsx)(b.StrictMode,{children:(0,Q.jsx)(aA,{})}));
+          `,children:`LinkedIn`}),`. If you are around Seoul, let's meet up for coffee.`]})]})}function oA(){return(0,Q.jsxs)(`div`,{className:`bg-transparent text-white font-[Archivo]`,children:[(0,Q.jsx)(qk,{}),(0,Q.jsx)(sA,{}),(0,Q.jsx)(Xv,{}),(0,Q.jsx)(`div`,{className:`pointer-events-none fixed inset-0 z-0`,children:(0,Q.jsx)(`div`,{className:`h-[300vh] md:h-[200vh] w-full bg-[linear-gradient(to_bottom,rgba(0,0,0,0)_0%,rgba(0,0,0,0.2)_30%,rgba(0,0,0,0.6)_60%,rgba(0,0,0,0.95)_100%)]`})})]})}function sA(){return(0,Q.jsxs)(`main`,{className:` max-w-none md:max-w-[800px] mx-auto`,children:[(0,Q.jsx)(Zk,{}),(0,Q.jsx)($k,{}),(0,Q.jsx)(tA,{}),(0,Q.jsx)(iA,{}),(0,Q.jsx)(aA,{}),(0,Q.jsx)(`p`,{className:`sr-only`,children:`Axel Develops is a creative developer based in Seoul, South Korea, specializing in modern web development, mobile app development, and immersive 3D experiences using React, Three.js, and React Native.`})]})}(0,x.createRoot)(document.getElementById(`root`)).render((0,Q.jsx)(b.StrictMode,{children:(0,Q.jsx)(oA,{})}));
