@@ -2,10 +2,9 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { useRef, useMemo } from "react";
 import * as THREE from "three";
 
-/* ✅ FIX: properly extend Curve */
 class InfinityCurve extends THREE.Curve<THREE.Vector3> {
   constructor() {
-    super(); // 🔥 REQUIRED (fixes TS error)
+    super();
   }
 
   override getPoint(t: number) {
@@ -26,7 +25,8 @@ function Tube() {
   const curve = useMemo(() => new InfinityCurve(), []);
 
   const geometry = useMemo(
-    () => new THREE.TubeGeometry(curve, 200, 0.08, 16, true),
+    () => new THREE.TubeGeometry(curve, 120, 0.08, 12, true),
+    // new THREE.TubeGeometry(curve, 200, 0.08, 16, true),
     [curve],
   );
 
@@ -35,7 +35,6 @@ function Tube() {
 
     const t = state.clock.elapsedTime;
 
-    // ✅ more stable responsive scaling (no direct window read)
     const isMobile = state.size.width < 768;
     const scale = isMobile ? 1.2 : 1.8;
 

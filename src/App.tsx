@@ -29,6 +29,11 @@ function Main() {
       <Services />
       <Projects />
       <Contact />
+      <p className="sr-only">
+        Axel Develops is a creative developer based in Seoul, South Korea,
+        specializing in modern web development, mobile app development, and
+        immersive 3D experiences using React, Three.js, and React Native.
+      </p>
     </main>
   );
 }

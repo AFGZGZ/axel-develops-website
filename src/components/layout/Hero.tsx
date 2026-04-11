@@ -52,23 +52,23 @@ function Hero() {
         </div>
       </div>
 
-      <div className="relative z-30 max-w-[800px] w-full flex flex-col">
-        <div className="relative z-30 max-w-[800px] w-full flex flex-col">
-          {/* <h1 className="text-[clamp(3rem,10vw,11rem)] leading-[0.85] tracking-tight font-medium"> */}
+      <div className="relative z-30 w-full max-w-[800px] flex flex-col">
+        <div className="max-w-[90%] sm:max-w-full">
           <h1
             className="
-            text-[clamp(4.5rem,14vw,6.5rem)]
-            sm:text-[clamp(4rem,12vw,8rem)]
-            md:text-[clamp(3.5rem,10vw,11rem)]
+            w-full
+            text-[clamp(3rem,8vw,8rem)]
+            xl:text-[7rem]
             leading-[0.85]
             tracking-tight
-            font-medium"
+            font-medium
+          "
           >
             I'm a
             <br />
             Creative
             <br />
-            <span className="relative inline-block h-[1em] overflow-hidden align-bottom">
+            <span className="relative inline-block h-[1em] overflow-hidden align-bottom whitespace-nowrap">
               <span
                 key={index}
                 className="block"

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://axeldevelops.com/sitemap.xml

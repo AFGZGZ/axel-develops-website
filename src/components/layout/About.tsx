@@ -30,7 +30,8 @@ function About() {
             <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden">
               <img
                 src={me}
-                alt="Profile"
+                alt="Axel - App/Web Developer"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -44,8 +45,11 @@ function About() {
               viewport={{ once: true, margin: "-100px" }}
               className="text-[clamp(1.8rem,3vw,2.6rem)] leading-[1.2] tracking-tight"
             >
-              I make cool digital things with an artisanal approach. Based in
-              Gyeonggi-do / Seoul.
+              <h2>
+                I design and build web applications, mobile apps, and immersive
+                3D experiences with an artisanal approach. Based in Gyeonggi-do
+                / Seoul.
+              </h2>
             </motion.p>
 
             <motion.p

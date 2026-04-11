@@ -11,7 +11,7 @@ function Contact() {
         href="mailto:you@email.com"
         className="text-xl opacity-40 hover:opacity-100 transition"
       >
-        you@email.com
+        email@email.com
       </a>
 
       {/* TEXT */}
@@ -53,7 +53,7 @@ function Contact() {
         </a>{" "}
         or{" "}
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/axel-fernandez-b19651240"
           target="_blank"
           rel="noopener noreferrer"
           className="
