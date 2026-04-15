@@ -8,10 +8,10 @@ function Contact() {
 
       {/* EMAIL (keep subtle) */}
       <a
-        href="mailto:you@email.com"
+        href="mailto:contact@axeldevelops.com"
         className="text-xl opacity-40 hover:opacity-100 transition"
       >
-        email@email.com
+        contact@axeldevelops.com
       </a>
 
       {/* TEXT */}

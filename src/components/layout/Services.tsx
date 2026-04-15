@@ -7,23 +7,25 @@ function Services() {
       title: "iOS/Android App Development",
       desc: "End-to-end mobile app development, from concept to launch.",
       details:
-        "Cross-platform apps with React Native, App Store deployment ...",
+        "Cross-platform apps built with React Native, including UI/UX implementation, API integrations, monetization, App Store and Play Store deployment, and ongoing support.",
     },
     {
       title: "Web Development",
       desc: "Modern, performant web applications built with scalability in mind.",
-      details: "Fullstack ...",
+      details:
+        " Full-stack development with React and custom or serverless backends. Focused on performance, clean architecture, and long-term maintainability.",
     },
     {
-      title: "VR/AR/XR Development",
-      desc: "Building immersive experiences using motion, 3D, and experimental interfaces. ",
-      details: " ... ",
+      title: "Augmented/mixed/extended reality Development",
+      desc: "Building immersive experiences that blend digital content with the real world. ",
+      details:
+        "Development of AR,MR,XR applications. Includes 3D asset integration, spatial anchoring, real-world tracking, and interaction systems optimized for mobile devices.",
     },
     {
       title: "Technical Strategy & Validation",
       desc: "Ensure your product is technically viable before investing in development.",
       details:
-        "Architecture planning, MVP validation, tech stack selection, and rapid prototyping...",
+        "I will act as a temporary CTO validating your ideas from a technical perspective and helping you identify risks early. Let's plan a scalable architecture, choose the optimal tools and prototype critical features before commiting for a full-scale development.",
     },
   ];
 
