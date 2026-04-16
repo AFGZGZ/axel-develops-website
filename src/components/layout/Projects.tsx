@@ -8,7 +8,7 @@ function Projects() {
       title: "Tokki Korean",
       desc: "An all-in-one language learning app for Korean. Currently available for Android devices.",
       image: tokki,
-      url: "https:www.tokkikorean.com",
+      url: "https://www.tokkikorean.com",
     },
   ];
 
